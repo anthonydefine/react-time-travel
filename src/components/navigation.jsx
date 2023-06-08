@@ -14,7 +14,7 @@ function Navigation() {
           {/* <a href="https://www.flaticon.com/free-icons/time-machine" title="time machine icons">Time machine icons created by Freepik - Flaticon</a> */ }
         </div>
         <div>
-          <h1 className="uppercase text-2xl font-bold under">Welcome back to 2010!</h1>
+          <h1 className="uppercase text-xl md:text-2xl font-bold under">Welcome back to 2010!</h1>
         </div>
         <div className="md:flex flex-col hidden">
           <h3 className="text-center mb-3">Built with:</h3>

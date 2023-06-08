@@ -37,7 +37,7 @@ function WebsiteButton({props}) {
       value={props.url}
       onClick={(e) => searchPressed(e.target.value)}
       style={{ backgroundColor: `${props.style.background}`, color: `${props.style.text}`}}
-      className="font-bold py-4 w-full text-lg md:text-3xl lg:text-4xl hover:underline uppercase tracking-wider rounded-full">
+      className="font-bold py-4 w-full text-sm md:text-3xl lg:text-4xl hover:underline uppercase tracking-wider rounded-full">
         {props.name}
       </button>
       <div className={siteModal ? "activeBackdrop" : "hiddenModal"}>
